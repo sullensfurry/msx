@@ -1,0 +1,31 @@
+{
+  "name": "DragonTV",
+  "description": "Un servidor para almacenar y reproducir música y videos.",
+  "version": "1.0",
+  "port": 8080,
+  "media_folder": "/ruta/a/tu/carpeta/de/medios",
+  "media": [
+    {
+      "title": "Canción 1",
+      "artist": "Artista 1",
+      "album": "Álbum 1",
+      "genre": "Pop",
+      "path": "/ruta/a/tu/carpeta/de/medios/cancion1.mp3"
+    },
+    {
+      "title": "Video 1",
+      "duration": "00:03:45",
+      "resolution": "1920x1080",
+      "path": "/ruta/a/tu/carpeta/de/medios/video1.mp4"
+    }
+  ],
+  "playlists": [
+    {
+      "name": "Lista de reproducción 1",
+      "media": [
+        { "title": "Canción 1" },
+        { "title": "Video 1" }
+      ]
+    }
+  ]
+}
